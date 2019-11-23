@@ -26,6 +26,7 @@ public class Hooks extends BaseUtil {
 
        @After
        public void AfterTest(){
+           System.out.println("Closing browser: Chrome");
         base.Driver.quit();
 
     }
